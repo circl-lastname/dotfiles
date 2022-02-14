@@ -1,0 +1,6 @@
+alias gsta="git status"
+alias gpul="git pull"
+alias gcln="git clone"
+alias gadd="git add -Av"
+alias gcom="git commit"
+alias gpsh="git push"
