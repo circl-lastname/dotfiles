@@ -9,3 +9,7 @@ alias grem="git restore --staged"
 alias gstg="git add -i"
 
 alias beeper="echo "Beeping..."; while true; do printf '\a'; sleep 0.5; done"
+
+function viewhex() {
+  hexdump -Cv "$1" | less;
+}
