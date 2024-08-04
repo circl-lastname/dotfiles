@@ -14,7 +14,7 @@ function grbs() {
 }
 
 function edit() {
-  pluma $1 &
+  kate $@ &
   disown
 }
 
